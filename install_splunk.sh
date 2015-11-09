@@ -1,6 +1,6 @@
 #!/bin/sh
 export SPLUNK_RPM_PKG=$1
-export $SPLUNK_HOME=/opt/splunk
+export SPLUNK_HOME=/opt/splunk
 
 echo 1.change ACL 
 sudo chmod 744 $SPLUNK_RPM_PKG
